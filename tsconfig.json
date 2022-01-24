@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@pages/*": ["src/pages/*"],
+      "@components/*": ["src/components/*"],
+      "@styles/*": ["src/styles/*"],
+      "@models/*": ["src/models/*"],
+      "@utils/*": ["src/utils/*"],
+      "@services/*": ["src/services/*"]
+    },
+    "target": "ES5",
+    "lib": ["DOM", "DOM.Iterable", "ESNext", "ES5"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", ".next", ".vscode"]
+}
