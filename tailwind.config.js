@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        body: ['Roboto']
+      },
       colors: {
         primary: '#0066ff'
       }
