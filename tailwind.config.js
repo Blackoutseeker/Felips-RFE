@@ -4,10 +4,10 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
+    fontFamily: {
+      body: ['Roboto']
+    },
     extend: {
-      fontFamily: {
-        body: ['Roboto']
-      },
       colors: {
         primary: '#0066ff'
       }
